@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import ControlPanel from "./components/ControlPanel";
+import Layout from "./components/Layput";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Layout />
+      <ControlPanel />
     </div>
   );
 }
