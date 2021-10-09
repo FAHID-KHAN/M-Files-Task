@@ -11,9 +11,9 @@ class ProjectItem extends Component {
   }
 
   isDisabled() {
-    if (this.props.state == "Finished") return true;
-    if (this.props.selectedState == "") return false;
-    else if (this.props.state != this.props.selectedState) return true;
+    if (this.props.state === "Finished") return true;
+    if (this.props.selectedState === "") return false;
+    else if (this.props.state !== this.props.selectedState) return true;
     else return false;
   }
 

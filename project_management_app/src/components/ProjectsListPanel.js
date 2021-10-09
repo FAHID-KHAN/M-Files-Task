@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectItem from "./ProjectItem";
 
-class ProjectListPanel extends Component {
+class ProjectsListPanel extends Component {
   constructor(props) {
     super(props);
   }
@@ -34,4 +34,4 @@ class ProjectListPanel extends Component {
   }
 }
 
-export default ProjectListPanel;
+export default ProjectsListPanel;
